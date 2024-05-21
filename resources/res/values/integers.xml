@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="acceptableFsyncCallsPerSample">150</integer>
+    <integer name="acceptableHoursPerOnePercentFlashWear">70</integer>
+    <integer name="acceptableWrittenKBytesPerSample">115000</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_mediaBootAutoplay">2</integer>
+    <integer name="config_mediaSourceChangedAutoplay">2</integer>
+    <integer name="config_projectionActivityDisplayId">-1</integer>
+    <integer name="config_projectionUiMode">0</integer>
+    <integer name="config_tboxTimePollingInterval">300000</integer>
+    <integer name="config_tboxTimeThreshold">5000</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="fastPairModelId">0x0</integer>
+    <integer name="hvacMaxFanSpeedLevel">10</integer>
+    <integer name="ioStatsNumSamplesToStore">0</integer>
+    <integer name="ioStatsRefreshRateSeconds">60</integer>
+    <integer name="maxExcessiveIoSamplesInWindow">11</integer>
+    <integer name="maxGarageModeRunningDurationInSecs">120</integer>
+    <integer name="millisecondsBeforeRebindToVmsPublisher">10000</integer>
+    <integer name="mr_cast_volume_slider_layout_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
+    <integer name="mr_update_routes_delay_ms">300</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="uptimeHoursIntervalBetweenUptimeDataWrite">5</integer>
+    <integer name="vmsHalClientMetricsProperty">0</integer>
+</resources>

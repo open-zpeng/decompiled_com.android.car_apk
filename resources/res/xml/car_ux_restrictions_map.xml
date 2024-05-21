@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UxRestrictions xmlns:car="http://schemas.android.com/apk/res-auto">
+    <RestrictionMapping>
+        <DrivingState car:state="parked">
+            <Restrictions car:requiresDistractionOptimization="false" car:uxr="baseline"/>
+        </DrivingState>
+        <DrivingState car:state="idling">
+            <Restrictions car:requiresDistractionOptimization="false" car:uxr="baseline"/>
+        </DrivingState>
+        <DrivingState car:maxSpeed="5" car:minSpeed="0" car:state="moving">
+            <Restrictions car:requiresDistractionOptimization="true" car:uxr="fully_restricted"/>
+        </DrivingState>
+        <DrivingState car:minSpeed="5" car:state="moving">
+            <Restrictions car:requiresDistractionOptimization="true" car:uxr="fully_restricted"/>
+        </DrivingState>
+    </RestrictionMapping>
+    <RestrictionParameters>
+        <StringRestrictions car:maxLength="120"/>
+        <ContentRestrictions car:maxCumulativeItems="21" car:maxDepth="3"/>
+    </RestrictionParameters>
+</UxRestrictions>
